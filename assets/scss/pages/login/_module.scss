@@ -1,0 +1,41 @@
+.login {
+  padding: 0 16px;
+  &__title {
+    margin-top: 92px;
+    text-align: center;
+    font-size: $font-size-big;
+    font-family: Comfortaa;
+    line-height: 36px;
+    color: $font-color-gray_strong;
+  }
+  &__form {
+    margin-top: 32px;
+    > li {
+      &:not(:first-child) {
+        margin-top: 12px;
+      }
+    }
+    &__title {
+      color: $font-color-gray_strong;
+    }
+  }
+  &__passwordForget {
+    margin-top: 12px;
+    text-align: right;
+    > a {
+      color: $font-color-orange;
+      &:link {
+        color: $font-color-orange;
+      }
+      &:visited {
+        color: $font-color-orange;
+      }
+      &:active {
+        color: $font-color-orange;
+      } 
+    }
+  }
+  &__action {
+    margin-top: 30px;
+  }
+}
