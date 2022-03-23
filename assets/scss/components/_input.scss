@@ -1,0 +1,14 @@
+input[type="text"],input[type="password"],input[type="email"] {
+  padding: 12px;
+  width: 100%;
+  border: 2px solid $border-color-gray_strong;
+  color: $font-color-gray;
+  line-height: 14px;
+  &::placeholder {
+    color: $font-color-gray_light;
+  }
+  &:focus {
+    outline: none;
+    background-color: $background-color-white;
+  }
+}
