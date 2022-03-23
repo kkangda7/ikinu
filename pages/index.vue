@@ -6,6 +6,9 @@
     <div>
       <input type="text" />
     </div>
+    <div>
+      <button class="btn btn--large btn--submit">ログイン</button>
+    </div>
   </div>
 </template>
 
