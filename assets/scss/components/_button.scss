@@ -1,0 +1,34 @@
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  cursor: pointer;
+  appearance: none;
+  text-decoration: none;
+
+  //size
+  &--large {
+    width: 100%;
+    height: 52px;
+    border-radius: 6px;
+    font-size: $font-size-large;
+    line-height: 16px;
+    font-weight: 900px;
+  }
+
+  //color
+  &--submit {
+    color: $font-color-white;
+    background-color: $background-color-orange;
+    &:link {
+      color: $font-color-white;
+    }
+    &:visited {
+      color: $font-color-white;
+    }
+    &:active {
+      color: $font-color-white;
+    }
+  }
+}
