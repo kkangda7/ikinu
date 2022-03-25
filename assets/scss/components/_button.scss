@@ -11,17 +11,42 @@
   &--large {
     width: 100%;
     height: 52px;
-    border-radius: 6px;
+
     font-size: $font-size-large;
     line-height: 16px;
-    font-weight: 900px;
+    font-weight: 900;
+  }
+
+  &--medium {
+    width: 100%;
+    height: 42px;
+    font-size: $font-size-large;
+    line-height: 16px;
+    font-weight: 900;
   }
 
   //color
   &--submit {
     color: $font-color-white;
     background-color: $background-color-orange;
+    border-radius: 6px;
     &:link {
+      color: $font-color-white;
+    }
+    &:visited {
+      color: $font-color-white;
+    }
+    &:active {
+      color: $font-color-white;
+    }
+  }
+
+  &--flat_orange {
+    color: $font-color-orange;
+    background-color: $background-color-white;
+    border: 1px solid $border-color-orange;
+    border-radius: 6px;
+        &:link {
       color: $font-color-white;
     }
     &:visited {
